@@ -25,7 +25,7 @@ program.
 
 The benefit of virtual memory is that it can hide the details of a physical
 memory from the programs. For example, in 32bit machine, all the available
-memory address is `2^32 = 4G` while the actaul physical memory may be only
+memory address is `2^32 = 4G` while the actual physical memory may be only
 `256M`. The program will still think that it can have `4G` memory to use, the
 OS will map them to physical ones.
 
